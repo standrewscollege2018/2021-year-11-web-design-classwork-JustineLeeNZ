@@ -1,0 +1,14 @@
+/* overall grid for page */
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.logo {
+  background-color: rgb(255, 0, 0);
+}
+
+.links {
+  background-color: rgb(255, 0, 0);
+  text-align: right;
+}
