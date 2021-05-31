@@ -6,6 +6,67 @@
   margin: 0px;
 }
 
+
+/* layout styles */
+.header {
+  margin: 20px;
+  text-align: center;
+}
+
+/* styles for homepage */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.intro {
+  padding:20px;
+}
+
+
+.main-content {
+  padding: 20px;
+
+
+}
+
+/* styles for pages about each country */
+.header {
+
+
+}
+
+.country_intro {
+  padding-left: -left: 10px;
+  padding-right: 10px;
+}
+
+.country-container {
+  display: grid;
+   /* grid-template-columns: repeat(3, 1fr);  */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+
+}
+
+/*  contains info about a specific place */
+.card {
+  border: solid;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+/*  make sure image displays nicely inside card */
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* general page styles */
 body {
   background-color: rgb(12, 34, 56);
   color: rgb(255, 255, 255);
