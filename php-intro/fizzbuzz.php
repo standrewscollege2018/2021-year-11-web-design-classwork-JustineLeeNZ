@@ -12,7 +12,14 @@
 
       do {
         // display current value
-        echo "<p>$number</p>";
+
+        if ($number % 5 == 0 AND $number % 3 == 0) {
+          echo "<p>FizzBuzz</p>";
+        }
+        else {
+          echo "<p>$number</p>";
+        }
+
 
         // add 1 to counter
         $number = $number + 1;
