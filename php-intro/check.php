@@ -6,14 +6,19 @@
   </head>
   <body>
 
+    <!-- check whether name matches desired name  -->
     <?php
-
+      // gets value of name
       $name = $_POST['name-entered'];
 
+      // check if name is a match
       if ($name == 'Rumplestiltskin') {
-        echo "How did you know my name!";
+        // display message saying name is correct
+        echo "How did you know my name?";
       }
+      // name isn't a match
       else {
+        // display message saying name isn't correct
         echo "That's not my name!";
       }
 
