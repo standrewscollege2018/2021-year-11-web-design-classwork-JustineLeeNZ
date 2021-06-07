@@ -7,9 +7,10 @@
   <body>
     <!-- code to play Fizz Buzz -->
     <?php
-      // loop from 1 to 100
+      // set initial counter value
       $number = 1;
 
+      // loop from 1 to end value
       do {
         // display current value
 
@@ -25,6 +26,7 @@
         elseif ($number % 3 == 0) {
           echo "<p>Fizz</p>";
         }
+        // not divisible by either 3 or 5
         else {
           echo "<p>$number</p>";
         }
@@ -34,6 +36,7 @@
         $number = $number + 1;
 
 
+        // continue until greater than 100
       } while ($number <= 100);
 
      ?>
