@@ -5,8 +5,8 @@
     <title>Get a name</title>
   </head>
   <body>
-    <form action="check.php" method="post">
-      <p>Guess my name:</p>
+    <form action="greeting.php" method="post">
+      <p>Type in a name:</p>
       <input type="text" name="name-entered" placeholder="Enter a name">
       <button type="submit" name="submit">Go!</button>
 
