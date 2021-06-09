@@ -17,6 +17,8 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+
 }
 
 .intro {
@@ -26,7 +28,7 @@
 
 .main-content {
   padding: 20px;
-
+  grid-column: span 2;
 
 }
 
@@ -37,7 +39,7 @@
 }
 
 .country_intro {
-  padding-left: -left: 10px;
+  padding-left: 10px;
   padding-right: 10px;
 }
 
